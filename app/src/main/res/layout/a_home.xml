@@ -1,12 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/f_GaugeTempOil"
+        android:name="tk.soulcar.acar.asc.GaugeTempOil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugePressOil"
         android:name="tk.soulcar.acar.asc.GaugePressOil"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeBoost"
+        android:name="tk.soulcar.acar.asc.GaugeBoost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeEGT"
+        android:name="tk.soulcar.acar.asc.GaugeEGT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeSpeedGPS"
+        android:name="tk.soulcar.acar.asc.GaugeSpeedGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeTempExt"
+        android:name="tk.soulcar.acar.asc.GaugeTempExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeVoltage"
+        android:name="tk.soulcar.acar.asc.GaugeVoltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeTempCooland"
+        android:name="tk.soulcar.acar.asc.GaugeTempCooland"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugePressFuel"
+        android:name="tk.soulcar.acar.asc.GaugePressFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <fragment
+        android:id="@+id/f_GaugeAcceleration"
+        android:name="tk.soulcar.acar.asc.GaugeAcceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
 </LinearLayout>
