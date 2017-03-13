@@ -10,7 +10,7 @@ public class GaugeTempOil extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.gauge_press_oil, container, false);
+        View rootView = inflater.inflate(R.layout.gauge_temp_oil, container, false);
 
         return rootView;
     }
