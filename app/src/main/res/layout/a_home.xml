@@ -71,24 +71,15 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:visibility="invisible">
+        android:orientation="horizontal">
 
         <fragment
             android:id="@+id/f_GaugeSpeedGPS"
             android:name="tk.soulcar.acar.asc.GaugeSpeedGPS"
             android:layout_width="130dp"
-            android:layout_height="0dp"
-            android:layout_margin="6dp"
-            android:layout_weight="1" />
-
-        <fragment
-            android:id="@+id/f_GaugeAcceleration"
-            android:name="tk.soulcar.acar.asc.GaugeAcceleration"
-            android:layout_width="130dp"
-            android:layout_height="0dp"
+            android:layout_height="70dp"
             android:layout_margin="6dp"
             android:layout_weight="1" />
 
@@ -96,18 +87,26 @@
             android:id="@+id/f_GaugeVoltage"
             android:name="tk.soulcar.acar.asc.GaugeVoltage"
             android:layout_width="130dp"
-            android:layout_height="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugeTempExt"
+            android:name="tk.soulcar.acar.asc.GaugeTempExt"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugeAcceleration"
+            android:name="tk.soulcar.acar.asc.GaugeAcceleration"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
             android:layout_margin="6dp"
             android:layout_weight="1" />
 
     </LinearLayout>
-
-    <fragment
-        android:id="@+id/f_GaugeTempExt"
-        android:name="tk.soulcar.acar.asc.GaugeTempExt"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="6dp"
-        android:layout_weight="1" />
 
 </LinearLayout>
