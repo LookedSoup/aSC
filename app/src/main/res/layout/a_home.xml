@@ -5,83 +5,107 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <fragment
-        android:id="@+id/f_GaugeTempOil"
-        android:name="tk.soulcar.acar.asc.GaugeTempOil"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
+        android:orientation="horizontal">
 
-    <fragment
-        android:id="@+id/f_GaugePressOil"
-        android:name="tk.soulcar.acar.asc.GaugePressOil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
+        <fragment
+            android:id="@+id/f_GaugePressOil"
+            android:name="tk.soulcar.acar.asc.GaugePressOil"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/f_GaugeBoost"
-        android:name="tk.soulcar.acar.asc.GaugeBoost"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
+        <fragment
+            android:id="@+id/f_GaugeBoost"
+            android:name="tk.soulcar.acar.asc.GaugeBoost"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/f_GaugeEGT"
-        android:name="tk.soulcar.acar.asc.GaugeEGT"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
+        <fragment
+            android:id="@+id/f_GaugeEGT"
+            android:name="tk.soulcar.acar.asc.GaugeEGT"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/f_GaugeSpeedGPS"
-        android:name="tk.soulcar.acar.asc.GaugeSpeedGPS"
-        android:layout_width="match_parent"
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_margin="6dp" />
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/f_GaugeTempOil"
+            android:name="tk.soulcar.acar.asc.GaugeTempOil"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugePressFuel"
+            android:name="tk.soulcar.acar.asc.GaugePressFuel"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugeTempCooland"
+            android:name="tk.soulcar.acar.asc.GaugeTempCooland"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/f_GaugeSpeedGPS"
+            android:name="tk.soulcar.acar.asc.GaugeSpeedGPS"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugeAcceleration"
+            android:name="tk.soulcar.acar.asc.GaugeAcceleration"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/f_GaugeVoltage"
+            android:name="tk.soulcar.acar.asc.GaugeVoltage"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
 
     <fragment
         android:id="@+id/f_GaugeTempExt"
         android:name="tk.soulcar.acar.asc.GaugeTempExt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
+        android:layout_height="100dp"
+        android:layout_margin="6dp"
+        android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/f_GaugeVoltage"
-        android:name="tk.soulcar.acar.asc.GaugeVoltage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
-
-    <fragment
-        android:id="@+id/f_GaugeTempCooland"
-        android:name="tk.soulcar.acar.asc.GaugeTempCooland"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
-
-    <fragment
-        android:id="@+id/f_GaugePressFuel"
-        android:name="tk.soulcar.acar.asc.GaugePressFuel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
-
-    <fragment
-        android:id="@+id/f_GaugeAcceleration"
-        android:name="tk.soulcar.acar.asc.GaugeAcceleration"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="6dp" />
 </LinearLayout>

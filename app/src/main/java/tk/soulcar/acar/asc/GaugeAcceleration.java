@@ -1,6 +1,9 @@
 package tk.soulcar.acar.asc;
 
 import android.app.Fragment;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
