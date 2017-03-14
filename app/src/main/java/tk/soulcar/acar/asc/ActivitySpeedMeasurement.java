@@ -8,7 +8,7 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class ActivityHome extends Activity {
+public class ActivitySpeedMeasurement extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,13 +19,13 @@ public class ActivityHome extends Activity {
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
-        setContentView(R.layout.a_home);
+        setContentView(R.layout.a_speed_measurement);
     }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // Обработайте нажатие, верните true, если обработка выполнена
-        Intent intent = new Intent(this, ActivitySpeedMeasurement.class);
+        Intent intent = new Intent(this, ActivityConsult.class);
         startActivity(intent);
 
         return false;

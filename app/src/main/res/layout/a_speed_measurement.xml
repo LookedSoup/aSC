@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/f_GaugeSpeedGPSb"
+                android:name="tk.soulcar.acar.asc.GaugeSpeedGPSb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <fragment
+                android:id="@+id/f_GaugeODOD"
+                android:name="tk.soulcar.acar.asc.GaugeODOD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <fragment
+                android:id="@+id/f_GaugeODOA"
+                android:name="tk.soulcar.acar.asc.GaugeODOA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="speed measurement"
+                android:textAlignment="center"
+                android:background="@color/colorBG"
+                android:textColor="@color/colorTXT"/>
+
+            <fragment
+                android:id="@+id/f_GaugeRacing40"
+                android:name="tk.soulcar.acar.asc.GaugeRacing40"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/f_GaugeRacing60"
+                android:name="tk.soulcar.acar.asc.GaugeRacing60"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/f_GaugeRacing80"
+                android:name="tk.soulcar.acar.asc.GaugeRacing80"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/f_GaugeRacing100"
+                android:name="tk.soulcar.acar.asc.GaugeRacing100"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/f_GaugeRacing120"
+                android:name="tk.soulcar.acar.asc.GaugeRacing120"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
