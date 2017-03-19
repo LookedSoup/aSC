@@ -17,7 +17,7 @@
             android:layout_gravity="center_vertical"
             android:textAlignment="center"
             android:text="000000"
-            android:textSize="20sp" />
+            android:textSize="32sp" />
     </LinearLayout>
 
 </LinearLayout>

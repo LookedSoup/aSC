@@ -16,11 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Handler;
 
-import com.physicaloid.lib.Physicaloid;
-import com.physicaloid.lib.usb.driver.uart.ReadLisener;
 
 public class ActivitySpeedMeasurement extends Activity {
-    Physicaloid mPhysicaloid; // initialising library
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
